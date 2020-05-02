@@ -12,12 +12,12 @@ on how to create really small Docker images from scratch.
 ## Manual build 
 If you would like to build it yourself, instead of running the
 pre-compiled image from Docker Hub, simple type `make`. This will
-create a image called *subnetcalc*. If you get a *"is up to date"* message,
+create a image called *subnetcalc*. If you get a *is up to date*-message,
 instead run `make --always-make`.
 
 ## Usage
 Run it (remove jackbenny/ if you would like to run it from your local build)
-and enter the subnet mask in slash notation -- but without the slash. 
+and enter the subnet mask in slash notation – but without the slash. 
 
 For example enter 24 for a 24-bit subnet mask and the
 program will output the total number of addresses in the range aswell
